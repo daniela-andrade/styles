@@ -7,10 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<link rel="stylesheet" href="normalize.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./css/normalize.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/alerts.css">
+<link rel="stylesheet" href="./css/forms.css">
+<link rel="stylesheet" href="./css/buttons.css">
+<link rel="stylesheet" href="./css/title.css">
+<link rel="stylesheet" href="./css/loading.css">
+<link rel="stylesheet" href="./css/navbar.css">
 
 <body>
+    <!-- nav bar -->
+    <nav class="navbar">
+        <div class="nav-center">
+            <!-- header -->
+            <div class="nav-header">
+                <a href="index.html" class="nav-logo">
+                    <img src="./assets/logo.png" alt="Daniela">
+                </a>
+                <button class="btn nav-btn">
+                    <img src="./assets/burger-menu-icon.png" alt="burger menu icon" class="burger-menu-icon">
+                </button>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Projects</a>
+                <a href="#" class="nav-link">Contact</a>
+            </div>   
+        </div>
+    </nav>
+    <!-- end nav bar -->
+
     <h1>Heading Example h1</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit corporis, dolores magni consequatur incidunt
         veritatis quibusdam. Laboriosam blanditiis animi iure, atque quae delectus repellendus doloremque dignissimos
@@ -37,7 +65,7 @@
         <li>Item 3</li>
     </ul>
     <div class="container">
-        <img src="./image.jpeg" alt="sample-img" class="img">
+        <img src="./assets/image.jpeg" alt="sample-img" class="img">
     </div>
     <br />
     <button class="btn" type="button">regular button</button>
@@ -81,6 +109,9 @@
         <h2>Section</h2>
         <div class="title-underline"></div>
     </div>
+
+
+    <script src="./js/nav.js"></script>
 
 </body>
 
